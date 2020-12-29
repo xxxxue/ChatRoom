@@ -178,6 +178,7 @@ namespace ChatRoomService.Hubs
 
             _logger.LogInformation(JsonUtils.ToJsonString(dbResult.Entity.User));
 
+           
             //发送
             await Clients.All.SendAsync(Const.ReceiveSystemMessage, dbResult.Entity);
         }

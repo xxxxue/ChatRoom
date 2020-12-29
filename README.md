@@ -6,12 +6,17 @@
 
 
 
-> vue3
->
-> c#  net5
->
-> signalr
->
-> furion
->
-> sqlite
+> Vue3
+
+> C#  Net5
+
+> SignalR
+> https://docs.microsoft.com/zh-cn/aspnet/core/signalr/hubs?view=aspnetcore-5.0
+
+
+> Furion
+> https://monksoul.gitee.io/furion/docs/
+
+> EFCore
+
+> Sqlite
